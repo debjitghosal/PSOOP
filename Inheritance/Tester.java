@@ -1,3 +1,19 @@
+/*
+Define parent class "Employee" that has 3 private attributes
+String name, String id, int age.
+Employee has constructor with 3 arguments that set value of name, id, age. It also has getter and setter
+methods for all 3 private attributes.
+Class "SalariedEmployee" is a sub class of Employee and has 1 private attribute empSalary.
+"SalariedEmployee" can be permanent or on contract and has constructor SalariedEmployee(String name,
+String id, int age, double empSalary) to set the values.
+constructor SalariedEmployee must call the superclass constructor to set name, id, age and call setter
+method to set the salary.
+Employee salary is empSalary + 2000(allowance) if he is a permanent employee else Employee salary is
+empSalary (no allowance).
+Accept the details of 5 employees and print details of the employee with highest salary.
+Create class Tester with main method
+*/
+
 import java.util.Scanner;
 
 class Employee {
